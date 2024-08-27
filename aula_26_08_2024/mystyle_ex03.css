@@ -1,0 +1,21 @@
+ul.circulo
+{
+	color:red;
+	list-style:circle;
+}
+ul.quadrado
+{
+	color:black;
+	list-style:square;
+}
+ol.romano
+{
+	color:blue;
+	list-style:upper-roman;
+}
+ol.letra
+{
+	color:black;
+	list-style:lower-alpha;
+	font-size:20px;
+}

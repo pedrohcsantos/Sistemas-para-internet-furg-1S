@@ -1,0 +1,12 @@
+p.monospace
+{
+	color:black;
+	text-align:left;
+	font-family: "Courier New", monospace;
+}
+p.serif
+{
+	color:black;
+	text-align:left;
+	font-family: "Times New Roman", Times, serif;
+}

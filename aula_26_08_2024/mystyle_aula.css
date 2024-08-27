@@ -1,0 +1,36 @@
+p.monospace
+{
+	color:black;
+	text-align:left;
+	font-family: "Courier New", monospace;
+}
+p.serif
+{
+	color:black;
+	text-align:left;
+	font-family: "Times New Roman", Times, serif;
+}
+a:link
+{
+	color:blue;	
+	font:20px;
+	font-size:Arial, sans-serif;
+}
+a:visited
+{
+	color:red;
+	font-size:20px;
+	font-size:Arial, sans-serif;
+}
+a:hover
+{
+	color:yellow;
+	font-size:80px;
+	font-size:Arial, sans-serif;
+}
+a:active
+{
+	color:green;
+	font-size:80px;
+	font-size:Arial, sans-serif;
+}

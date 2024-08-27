@@ -1,0 +1,63 @@
+<!Doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="mystyle_ex04.css">
+</head>
+<body>
+	<form name="input" action="submetido.html" metod="post">
+	<h2>Cadastro Jogos</h2>
+		<table border="1">
+		<tr>
+			<td>Nome</td>
+			<td colspan="4"><input type="text" name="nome" placeholder="Digite seu nome aqui" size="70"></td>
+		</tr>
+		<tr>
+			<td>Curso</td>
+			<td colspan="3"><select name="cursos" widht=100%>
+				<option value="si" select="si">Sistemas de Informação</option>
+				<option value="ec">Engenharia da Computação</option>
+				<option value="ea">Engenharia de Automação</option>
+				</select></td>
+		</tr>
+
+		<tr>
+			<td>Matrícula</td>
+			<td><input type="text" name="matricula" placeholder="Digite sua matrícula aqui" size="60"></td>
+			<td>Ano</td>
+			<td><select name="ano">
+				<option value="1" select="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				</select></td>
+		</tr>
+		<tr>
+			<td class="titulo" colspan="4">Jogos de preferência</td>
+		</tr>
+		<tr>
+			<td class="jogos" colspan="4"><input type="checkbox" name="jogos" value="volei">Volei
+			<input type="checkbox" name="jogos" value="basquete">Basquete
+			<input type="checkbox" name="jogos" value="handebol">Volei<br>
+			<input type="checkbox" name="jogos" value="tenis">Tenis
+			<input type="checkbox" name="jogos" value="futebol">Futebol
+			<input type="checkbox" name="jogos" value="xadrez">xadrez</td>
+		</tr>
+
+		<tr>
+			<td class="titulo" colspan="4">Dia de preferência</td>
+		</tr>
+		<tr>
+			<td class="dias" colspan="4"><input type="radio" name="dias_semana" value="segunda">Seg
+			<input type="radio" name="dias_semana" value="terça">Ter
+			<input type="radio" name="dias_semana" value="quarta">Qua
+			<input type="radio" name="dias_semana" value="quinta">Qui
+			<input type="radio" name="dias_semana" value="sexta">Sex
+		</tr>
+
+		<tr>
+			<td colspan="4" class="jogos"><input type="submit" value="Enviar">
+			<input type="reset" value="Limpar"></td>
+		</tr>
+</body>
+</html>
