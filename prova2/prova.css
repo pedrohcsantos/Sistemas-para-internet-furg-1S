@@ -1,0 +1,71 @@
+table.marca
+{
+    background-image: url("https://media1.tenor.com/m/zZOt7alSzAMAAAAd/gojo-gojo-satoru.gif")
+}
+h2
+{
+    text-align: center;
+}
+
+td.titulo
+{
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+td.esportes
+{
+    padding-bottom: 20px;
+}
+
+td.doces
+{
+    padding-bottom: 20px;
+}
+
+td.comida
+{
+    padding-bottom: 20px;
+}
+
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="text"]
+{
+    vertical-align: middle;
+    background-color: gray;
+    text-align: center;
+}
+
+select[name="comida"]
+{
+    vertical-align: top;
+}
+
+input[name="historia"]
+{
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width:99%;
+    height: 100%;
+}
+
+input[type="submit"]
+{
+	text-align:center;
+	font-size:14px;
+	width:20%;
+}
+input[type="reset"]
+{
+    align-content: right;
+	text-align:center;
+	font-size:14px;
+    width: 20%;
+}
