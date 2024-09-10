@@ -1,0 +1,94 @@
+body
+{
+    background-image: url("https://media1.tenor.com/m/DSyo0NKX8gMAAAAC/gojo-satoru.gif");
+    background-size: 100%;
+}
+h1
+{
+    text-align: center;
+    font-family: Arial;
+}
+h2
+{
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+}
+table
+{
+    border-collapse: collapse;
+    width: 600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+td.azul_escuro
+{
+    background-color: blue;
+    text-align: center;
+    font-family: Arial;
+}
+td.rosa
+{
+    background-color: pink;
+    text-align: center;
+    font-family: Arial;
+}
+td.verde_escuro
+{
+    background-color: green;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial;
+}
+td.cinza
+{
+    background-color: gray;
+    text-align: center;
+    font-family: Arial;
+}
+td.marrom
+{
+    background-color: brown;
+    text-align: center;
+    font-family: Arial;
+}
+td.verde_claro
+{
+    background-color: lightgreen;
+    text-align: center;
+    font-family: Arial;
+}
+td.lilas
+{
+    background-color: violet;
+    text-align: center;
+    font-family: Arial;
+}
+td.preto
+{
+    color: white;
+    background-color: black;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial;
+}
+td.vermelho
+{
+    background-color: red;
+    text-align: center;
+    font-family: Arial;
+}
+td.azul_claro
+{
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial;
+}
+td.laranja
+{
+    background-color: orange;
+    text-align: center;
+    font-family: Arial;
+    vertical-align: middle;
+}
