@@ -1,0 +1,27 @@
+<!Doctype html>
+<html>
+    <head>
+        <script type="text/javascript" language="javascript">
+            
+            function teste(str){
+                var regex = /^[+-]?[0-9]+(\.[0-9]+)?$/;
+                return regex.test(str);
+            }
+
+            function myFunction(){
+                var str = document.getElementById('numberInput').value;
+                if (teste(str)){
+                    alert("É um número válido!");
+                }
+                else{
+                    alert("Não é um número válido!");
+                }
+            } 
+        </script>
+    </head>
+    <body>
+        Escreva uma função para determinar se uma string representa um número (inteiro ou real) válido. Exemplos de números válidos: 10, +5, −3, −10.3, 0.80, 2.8033.
+        <br>
+        Número: <input type="text" id="numberInput" onBlur="myFunction()">
+    </body>
+</html>
