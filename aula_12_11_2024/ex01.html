@@ -1,0 +1,50 @@
+<!Doctype html>
+<html>
+    <head>
+        <script>
+            function yellow(x){
+                x.style.background="yellow";
+            }
+            function red(x){
+                x.style.background="red";
+            }
+            function pink(x){
+                x.style.background="pink";
+            }
+            function black(x){
+                x.style.background="black";
+            }
+            function green(x){
+                x.style.background="green";
+            }
+            function white(x){
+                x.style.background="white";
+            }
+            function blue(x){
+                x.style.background="blue";
+            }
+            
+        </script>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td onmouseover="yellow(this)" onmouseout="white(this)">Amarelo</td>
+                <td onmouseover="red(this)" onmouseout="white(this)">Vermelho</td>
+                <td onmouseover="pink(this)" onmouseout="white(this)">Rosa</td>
+            </tr>
+            <tr>
+                <td onmouseover="black(this)" onmouseout="white(this)">Preto</td>
+                <td onmouseover="yellow(this)" onmouseout="white(this)">Amarelo</td>
+                <td onmouseover="green(this)" onmouseout="white(this)">Verde</td>
+            </tr>
+            <tr>
+                <td onmouseover="blue(this)" onmouseout="white(this)">Azul</td>
+                <td onmouseover="red(this)" onmouseout="white(this)">Vermelho</td>
+                <td onmouseover="yellow(this)" onmouseout="white(this)">Amarelo</td>
+            </tr>
+        </table>
+    </body>
+
+
+</html>
