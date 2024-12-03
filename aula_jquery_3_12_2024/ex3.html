@@ -1,0 +1,31 @@
+<!Doctype html>
+<html>
+    <head>
+        <script src="jquery.js"></script>
+        <style>
+            #input1{
+                width: 320px;
+            }
+
+            #input2{
+                width: 320px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Crie uma estrutura HTML com dois inputs. Neste exercício tudo que for escrito no primeiro input deve automaticamente e instantaneamente ser clonado para о segundo input.</h1>
+        <br>
+        x: <input type="text" id="input1" placeholder="Escreva aqui!">
+    
+        y: <input type="text" id="input2" placeholder="O que foi escrito em cima será transportado para cá!">
+        
+        <script>
+            $("#input1").keyup(function(){
+                $("#input2").val($(this).val());
+            });
+        </script>
+    </body>
+
+
+
+</html>

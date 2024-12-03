@@ -1,0 +1,37 @@
+<!Doctype html>
+<html>
+    <head>
+        <script src="jquery.js">
+        </script>
+    </head>
+    <body>
+        <h1>Crie dois parágrafos o primeiro deve ter a cor do texto verde, o segundo deve ter a cor do
+            texto vermelho. Quando o cursor do mouse passar sobre o primeiro parágrafo as cores dos textos devem ser invertidas (parágrafo 1
+            fica vermelho, parágrafo 2 fica verde).</h1>
+        <br>
+        <p class="verde">P1 P1 P1 P1 P1 P1 P1 P1 P1 P1 P1 P1 P1 P1 P1 P1 P1 P1 P1 P1 P1 P1 P1 P1 </p>
+        <p class="preto">P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 P2 </p>
+
+        <script>
+            $("p").eq(0).css("color", "green");
+            $("p").eq(1).css("color", "red");
+
+
+            $("p").eq(0).hover(
+                function(){$(this).css ("color", "red"); },
+            )
+            $("p").eq(1).hover(
+                function(){$(this).css ("color", "green"); },
+            )
+            $("p").eq(0).mouseout(
+                function(){$(this).css ("color", "green"); },
+            )
+            $("p").eq(1).mouseout(
+                function(){$(this).css ("color", "red"); },
+            )
+        </script>
+    </body>
+
+
+
+</html>

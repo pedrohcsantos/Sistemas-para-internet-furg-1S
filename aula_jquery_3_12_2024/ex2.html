@@ -1,0 +1,27 @@
+<!Doctype html>
+<html>
+    <head>
+        <script src="jquery.js"></script>
+        <link rel="stylesheet" type="text/css" href="mystyle_ex2.css">
+        <script type="text/javascript" language="javascript" src="ex2.js"></script>
+    </head>
+    <body>
+        <h1>Crie a seguinte estrutura HTML Um input para receber um nome; Um parágrafo vazio; Um botão denominado concluir.
+            Documentação 10 Note que o usuário deve preencher seu nome e clicar concluir, logo em seguida o paragrafo vazio
+            atualizado para a seguinte frase "seu nome é:" nome que o usuário digitou.</h1>
+        <br>
+        Insira um nome: <input type="text" id="nome">
+        <p id="paragrafo"> </p>
+        <input type="button" id="concluir" value="Concluir">
+        
+        <script>
+            $("#concluir").click(function(){
+                var nome = $("#nome").val();
+                $("#paragrafo").text("Seu nome é: " + nome);
+            });
+        </script>
+    </body>
+
+
+
+</html>
