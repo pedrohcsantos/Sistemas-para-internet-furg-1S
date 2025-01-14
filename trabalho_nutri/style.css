@@ -1,0 +1,194 @@
+body
+{
+    margin: 0px;
+    padding: 0;
+    height: 150vh;
+    background: linear-gradient(180deg, purple 13%, black 87%);
+    display: flex;
+    justify-content: center; 
+}
+
+@font-face 
+{
+    font-family: Samsung;
+    src: url(css/samsungsharpsans-bold.otf);
+}
+
+@font-face
+{
+    font-family: Samsung-medium;
+    src: url(css/samsungsharpsans-medium.otf);
+}
+
+@font-face
+{
+    font-family: Samsung-regular;
+    src: url(css/samsungsharpsans.otf);
+}
+
+.titulo
+{
+    font-family: Samsung;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 8vh;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    box-shadow: rgba(175, 175, 175, 0.2) 0px 2px 8px 0px;
+}
+.slider
+{
+    width: 1164px;
+    height: 400px;
+    margin-top: 100px;
+    overflow: hidden;
+    
+}
+
+.slides
+{
+    width: 500px;
+    height: 400;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide
+{
+    transition: 2s;
+}
+
+.navigation-manual
+{
+    position: absolute;
+    width: 1100px;
+    margin-top: 260px;
+    display: flex;
+    justify-content: center;
+
+}
+.manual-btn
+{
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child)
+{
+    margin-right: 40px;
+}
+
+.manual-btn:hover
+{
+    background: #40D3DC;
+}
+
+#radio1:checked ~ .first
+{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first
+{
+    margin-left: -232.2%;
+}
+
+#radio3:checked ~ .first
+{
+    margin-left: -464.4%;
+}
+
+.navigation-auto
+{
+    position: absolute;
+    display: flex;
+    width: 1100px;
+    justify-content: center;
+    margin-top: 260px;
+}
+
+.navigation-auto div{
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child)
+{
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1
+{
+    background: #40D3DC;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2
+{
+    background: #40D3DC;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3
+{
+    background: #40D3DC;
+}
+
+.pesquisar
+{
+    background-color: #220140;
+    height: 80px;
+    width: 1150px;
+    margin-right: 50px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.gerenciamento-text
+{
+    color: purple;
+    text-shadow: 5px 5px 5px black;
+    font-family: Samsung-medium;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+input[name="refeicoes"]
+{
+    width: 1050px;
+    height: 70px;
+    text-align: justify;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.gerenciamento-text2
+{
+    color: purple;
+    text-shadow: 5px 5px 5px black;
+    font-family: Samsung-medium;
+    font-size: 15px;
+    text-align: left;
+}
+
+.arroz
+{
+    overflow: visible;
+}
